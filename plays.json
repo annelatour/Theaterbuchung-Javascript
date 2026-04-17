@@ -18,5 +18,9 @@
     "wicked": {
         "name": "Wicked",
         "type": "musical"
+    },
+    "phantom of the opera": {
+        "name": "Phantom Of The Opera",
+        "type": "musicl"
     }
 }
