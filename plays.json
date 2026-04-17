@@ -14,5 +14,9 @@
     "hamilton": {
         "name": "Hamilton",
         "type": "musical"
+    },
+    "wicked": {
+        "name": "Wicked",
+        "type": "musical"
     }
 }

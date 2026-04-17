@@ -1,9 +1,9 @@
-module.exports = {
-    statement,
-}
+
+import {playCalculation} from "./playCalculation.js";
 
 
-function statement(invoice, plays) {
+
+export function statement(invoice, plays) {
     let totalAmount = 0;
     let volumeCredits = 0;
     let result = `Statement for ${invoice.customer}\n`;
@@ -17,29 +17,7 @@ function statement(invoice, plays) {
         const play = plays[perf.playID];
         let thisAmount = 0;
 
-        switch (play.type) {
-            case "tragedy":
-                thisAmount = 40000;
-                if (perf.audience > 30) {
-                    thisAmount += 1000 * (perf.audience - 30);
-                }
-                break;
-            case "comedy":
-                thisAmount = 30000;
-                if (perf.audience > 20) {
-                    thisAmount += 10000 + 500 * (perf.audience - 20);
-                }
-                thisAmount += 300 * perf.audience;
-                break;
-            case "musical":
-                thisAmount = 50000;
-                if (perf.audience > 50) {
-                    thisAmount += (perf.audience - 50) * 500;
-                }
-                break;
-            default:
-                throw new Error(`unknown type: ${play.type}`);
-        }
+        thisAmount = playCalculation (play, perf);
 
         // add volume credits
         volumeCredits += Math.max(perf.audience - 30, 0);
