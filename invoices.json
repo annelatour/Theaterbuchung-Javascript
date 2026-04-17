@@ -21,6 +21,10 @@
             {
                 "playID": "phantom of the opera",
                 "audience": 73
+            },
+            {
+                "playID": "faust",
+                "audience": 53
             }
         ]
     }

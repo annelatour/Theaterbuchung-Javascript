@@ -26,10 +26,10 @@ function playCalculation (play, perf) {
         case "oper":
             thisAmount = 100000;
             if (perf.audience > 50) {
-                thisAmount += 50000;
+                thisAmount += 20000;
             }
             if (perf.audience > 100) {
-                thisAmount += 50000;
+                thisAmount += 20000;
             }
             break;
         default:
