@@ -31,6 +31,12 @@ function statement(invoice, plays) {
                 }
                 thisAmount += 300 * perf.audience;
                 break;
+            case "musical":
+                thisAmount = 50000;
+                if (perf.audience > 50) {
+                    thisAmount += (perf.audience - 50) * 500;
+                }
+                break;
             default:
                 throw new Error(`unknown type: ${play.type}`);
         }
