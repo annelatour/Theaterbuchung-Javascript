@@ -22,5 +22,9 @@
     "phantom of the opera": {
         "name": "Phantom Of The Opera",
         "type": "musicl"
+    },
+    "faust": {
+        "name": "Faust",
+        "type": "oper"
     }
 }

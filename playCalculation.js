@@ -23,6 +23,15 @@ function playCalculation (play, perf) {
                 thisAmount += (perf.audience - 50) * 500;
             }
             break;
+        case "oper":
+            thisAmount = 100000;
+            if (perf.audience > 50) {
+                thisAmount += 50000;
+            }
+            if (perf.audience > 100) {
+                thisAmount += 50000;
+            }
+            break;
         default:
             throw new Error(`unknown type: ${play.type}`);
     }

@@ -17,6 +17,10 @@
             {
                 "playID": "hamilton",
                 "audience": 101
+            },
+            {
+                "playID": "phantom of the opera",
+                "audience": 73
             }
         ]
     }
