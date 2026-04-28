@@ -13,9 +13,8 @@ function playCalculation (play, perf) {
         case "comedy":
             thisAmount = 30000;
             if (perf.audience > 20) {
-                thisAmount += 100000 + 500 * (perf.audience - 20);
+                thisAmount += 10000 + 500 * (perf.audience - 20);
             }
-            thisAmount += 30000 * perf.audience;
             break;
         case "musical":
             thisAmount = 50000;
