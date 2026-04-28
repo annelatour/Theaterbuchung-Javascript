@@ -21,10 +21,10 @@
     },
     "phantom of the opera": {
         "name": "Phantom Of The Opera",
-        "type": "musicl"
+        "type": "musical"
     },
     "faust": {
         "name": "Faust",
-        "type": "opera"
+        "type": "tragedy"
     }
 }
