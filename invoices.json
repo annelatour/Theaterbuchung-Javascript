@@ -31,5 +31,26 @@
                 "audience": 52
             }
         ]
+    },
+    {
+        "customer": "MusicalCo",
+        "performances": [
+            {
+                "playID": "hamilton",
+                "audience": 97
+            },
+            {
+                "playID": "hamilton",
+                "audience": 100
+            },
+            {
+                "playID": "wicked",
+                "audience": 94
+            },
+            {
+                "playID": "phantom of the opera",
+                "audience": 97
+            }
+        ]
     }
 ]
