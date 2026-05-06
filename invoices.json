@@ -61,8 +61,12 @@
                 "audience": 116
             },
             {
-                "playID": "haamlet",
+                "playID": "hamlet",
                 "audience": 54
+            },
+            {
+                "playID": "tragedy",
+                "audience": 116
             }
         ]
     }
