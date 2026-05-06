@@ -56,7 +56,14 @@
     {
         "customer": "PlaysForSchools",
         "performances": [
-
+            {
+                "playID": "faust",
+                "audience": 116
+            },
+            {
+                "playID": "haamlet",
+                "audience": 54
+            }
         ]
     }
 ]
