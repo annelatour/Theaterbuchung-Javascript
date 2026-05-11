@@ -28,7 +28,7 @@ function playCalculation (play, perf) {
                 thisAmount += 20000;
             }
             if (perf.audience > 100) {
-                thisAmount += 20000;
+                thisAmount = 20000;
             }
             break;
         default:

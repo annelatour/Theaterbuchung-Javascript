@@ -69,5 +69,18 @@
                 "audience": 116
             }
         ]
+    },
+    {
+        "customer": "OperaCo",
+        "performances": [
+            {
+                "playID": "fidelio",
+                "audience": 85
+            },
+            {
+                "playID": "zauberfloete",
+                "audience": 108
+            }
+        ]
     }
 ]

@@ -13,7 +13,7 @@
     },
     "hamilton": {
         "name": "Hamilton",
-        "type": "musicl"
+        "type": "musical"
     },
     "wicked": {
         "name": "Wicked",
@@ -26,5 +26,13 @@
     "faust": {
         "name": "Faust",
         "type": "tragedy"
+    },
+    "fidelio": {
+        "name": "Fidelio",
+        "type": "opera"
+    },
+    "zauberfloete": {
+        "name": "Die Zauberflöte",
+        "type": "opera"
     }
 }
